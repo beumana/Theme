@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Lean</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:100,300,500" rel="stylesheet">
+	<script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</head>
+<body>
+	
+	<nav class="navbar navbar-inverse test">
+	  <div class="container-fluid">
+	    <div class="navbar-header">
+	    	<a class="navbar-brand" href="#">Leanup</a>
+	      <!--<a class="navbar-brand" href="#">
+	        <img alt="Brand" src="...">
+	      </a>-->
+	    </div>
+	  </div>
+	</nav>
+	
+	
+	<section class="hero">
+		<div class="wrapper">
+			<h1 class="hero__title">From Design to Code</h1>
+			<p class="hero__p">We help you successfully launch your lean startup.</p>
+		</div>
+	</section>
+	
+	<!-- ================================
+	Modal START
+	===================================== -->
+	<!-- Modal Trigger Button 
+	<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+	  Launch demo modal
+	</button> -->
+
+	<!-- Modal -->
+	<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+	  <div class="modal-dialog" role="document">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+	        <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+	      </div>
+	      <div class="modal-body">
+		       <form action="https://api.formbucket.com/f/yNUWhwD" method="post">
+		       	<div class="form-group">
+					    <label for="inputFullName">Full Name</label>
+					    <input type="text" class="form-control" id="inputFullName" placeholder="">
+					  </div>
+	          <div class="form-group">
+					    <label for="inputEmail">Email</label>
+					    <input type="email" class="form-control" id="inputEmail" placeholder="">
+					  </div>
+	          <div class="form-group">
+	            <label for="message-text" class="control-label">Message:</label>
+	            <textarea class="form-control" id="message-text" placeholder="How can we help you?"></textarea>
+	          </div>
+	        </form>
+	      </div>
+	      <div class="modal-footer">
+	        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+	        <button type="submit" class="btn btn-primary">Submit</button>
+	      </div>
+	    </div>
+	  </div>
+	</div>	
+	
+	<!-- ================================
+	Header START
+	===================================== -->	
+	<header class="container-fluid">
+		<div class="row">
+			<div class="col-sm-12">
+				
+			</div>
+		</div>
+	</header>
+	
+	<!-- ================================
+	Intro Grid START
+	===================================== -->	
+	<div class="container-fluid">
+		<div class="row table-grid text-center">
+			<div class="col-sm-4 col-xs-6 table-grid__item">
+				Front-End Development
+			</div>
+			<div class="col-sm-4 col-xs-6 table-grid__item">
+				Back-End Development
+			</div>
+			<div class="col-sm-4 col-xs-6 table-grid__item">
+				iOS Development
+			</div>
+			<div class="col-sm-4 col-xs-6 table-grid__item">
+				UI/UX Design
+			</div>
+			<div class="col-sm-4 col-xs-6 table-grid__item">
+				Prototype
+			</div>
+			<div class="col-sm-4 col-xs-6 table-grid__item">
+				User Testing
+			</div>
+		</div>
+	</div>
+	
+	<!-- ================================
+	Section-Left START
+	===================================== -->	
+	<section class="sectional">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-5 col-md-4 col-md-offset-1">
+					<h2 class="sectional__title">Broad Range<br>Of Expertise</h2>
+					<p class="sectional__p">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.</p>
+				</div>
+				<div class="col-sm-7 col-md-6 col-md-offset-1">
+					<img src="img/rectangle-s.png" class="center-block img-responsive">
+				</div>
+			</div>
+		</div>
+	</section><hr>
+	
+		<!-- ================================
+	Section-Right START
+	===================================== -->	
+	<section class="sectional">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-5 col-sm-push-7 col-md-4 col-md-push-7">
+					<h2 class="sectional__title">Broad Range<br>Of Expertise</h2>
+					<p class="sectional__p">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.</p>
+				</div>
+				<div class="col-sm-7 col-sm-pull-5 col-md-6 col-md-pull-4">
+					<img src="img/rectangle-s.png" class="center-block img-responsive">
+				</div>
+			</div>
+		</div>
+	</section><hr>
+	
+	
+	
+	<!-- TEST -->
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+          <div class="box-item"> 
+            <div class="media-file">
+              <img src="img/grid-rtree.png" class="img-responsive" alt="">
+              <a class="triangle portfolio-link" href="#portfolioModal1" data-toggle="modal" title=""><span>+</span></a>      
+            </div>
+            <div class="media-text">
+              <h4>Ravetree</h4>
+            </div>                
+          </div>  
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+          <div class="box-item"> 
+            <div class="media-file">
+              <img src="img/grid-helpiest-pro.png" class="img-responsive" alt="">     
+              <a class="triangle portfolio-link" href="#portfolioModal2" data-toggle="modal" title=""><span>+</span></a>      
+            </div>
+            <div class="media-text">
+              <h4>Helpiest Pro</h4>
+            </div>                
+          </div>  
+        </div>
+        
+        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+          <div class="box-item"> 
+            <div class="media-file">
+              <img src="img/grid-ppweb.png" class="img-responsive" alt="">     
+              <a class="triangle portfolio-link" href="#portfolioModal3" data-toggle="modal" title=""><span>+</span></a>      
+            </div>
+            <div class="media-text">
+              <h4>PrestoPhoto</h4>
+            </div>                
+          </div>  
+        </div>
+        
+      </div>
+    </div>
+  
+  <!-- Portfolio Modal 1 -->
+  <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+              <div class="lr">
+                  <div class="rl">
+                  </div>
+              </div>
+          </div>
+          <div class="container">
+              <div class="row">
+                  <div class="col-lg-8 col-lg-offset-2">
+                      <div class="modal-body">
+                          <!-- Project Details Go Here -->
+                          <p class="lead"><strong>Made with: </strong>Invision, Photoshop, Illustrator, &amp; Sketch</p>
+                          <img class="img-responsive img-centered" src="img/ravetree.png" alt="">
+                          <button type="button" class="btn btn-primary special" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+  <!-- Portfolio Modal 2 -->
+  <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+              <div class="lr">
+                  <div class="rl">
+                  </div>
+              </div>
+          </div>
+          <div class="container">
+              <div class="row">
+                  <div class="col-lg-8 col-lg-offset-2">
+                      <div class="modal-body">
+                          <p class="lead"><strong>Made with: </strong>HTML/CSS, Jquery, Meteor, Invision, Photoshop, Illustrator, &amp; Sketch</p>
+                          <img class="img-responsive img-centered" src="img/helpiest-pro.png" alt="">
+                          <button type="button" class="btn btn-primary special" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+  <!-- Portfolio Modal 3 -->
+  <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+              <div class="lr">
+                  <div class="rl">
+                  </div>
+              </div>
+          </div>
+          <div class="container">
+              <div class="row">
+                  <div class="col-lg-8 col-lg-offset-2">
+                      <div class="modal-body">
+                          <!-- Project Details Go Here -->
+                          <p class="lead"><strong>Made with: </strong>HTML/CSS, Jquery, Photoshop, Illustrator, &amp; Affinity Design</p>
+                          <img class="img-responsive img-centered" src="img/ppweb.jpg" alt="">
+                          <button type="button" class="btn btn-primary special" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+
+	<script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<script>
+	$(document).ready(function() {
+	});
+	</script>
+</body>
+</html>
